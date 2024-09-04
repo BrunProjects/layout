@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+body{
+    max-width: 1720px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menuPrincipal{
+    display: flex;
+    width: auto;
+    height: 80px;
+    padding: 15px 20px;
+
+    background: #2f4f4f;
+    justify-content: space-around;
+
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 100px;
+    height: 60px;
+}
+
+a{
+    padding: 0 10px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.tela{
+    background: lightgray;
+    width: auto;
+    height: 500px;
+}
+
+.informativo{
+ width: 500px;
+}
+
+.botao{
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(28, 187, 28);
+}
+
+footer{
+    font-size: 12px;
+    text-align: center;
+}
+
+.fotoinfo{
+    width: 600px;
+    height:200px;
+}
+
+.telao{
+    justify-content: space-around;
+    padding: 100px 150px;
+    display: flex;
+}
